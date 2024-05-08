@@ -11,6 +11,8 @@ Download Sorter is a Python script designed to organize files into specified fol
 
 ## Getting Started
 
+  NOTE: If you'd like to run it on startup, you can add modify the file path of the provided Batch file and have it run as a service on startup.
+
 ### Prerequisites
 
 - Python 3.x installed on your system.
@@ -52,9 +54,14 @@ python main.py
 
 3. Follow the prompts to provide the file path and initiate the sorting process.
 
+## Work in Progress
+
+- GUI: Working on adding a graphical user interace to make adding paths more intuitive.
+- Multiple instances: Working on making so the script can work in multiple directories with varying sorting configurations.
+
 ## Contributing
 
-Contributions are welcome! Please feel free to fork the repository, make changes, and submit a pull request.
+Contributions are welcome! Please feel free to fork the repository, make changes, and submit a pull request, if you have anything you'd like to add.
 
 ## License
 
