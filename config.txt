@@ -1,0 +1,14 @@
+#test comment
+#test comment3
+SORTING_PATH=C:\Users\fireh\Desktop\testFolder
+.pdf: PDFs
+.jpg,.png: Images
+.docx,.txt: Docs
+.csv: Excels
+.exe: Executables
+#test comment 2
+.mov,.mp4,.wmv,.avi: Videos
+.zip,.7z,.rar: Zips
+.webp,.html: Webpages
+.pptx: PowerPoints
+.js: JavaScript
