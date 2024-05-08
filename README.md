@@ -7,8 +7,6 @@ Download Sorter is a Python script designed to organize files into specified fol
 - **File Sorting**: Automatically sorts downloaded files into designated folders based on predefined rules.
 - **Configuration Settings**: Allows customization of sorting rules using a configuration file (`config.txt`).
 - **Support for Extensions and Custom Names**: Supports sorting files based on both file extensions and custom file names.
-- **User Interaction**: Prompts the user to input a file path if not specified in the configuration file, enhancing usability.
-- **Error Handling**: Includes error handling mechanisms to address issues such as invalid file paths or missing configuration settings.
 - **Cross-Platform Compatibility**: Developed in Python, making it compatible with Windows, macOS, and Linux operating systems.
 
 ## Getting Started
