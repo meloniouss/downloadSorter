@@ -1,2 +1,2 @@
 @echo off
-py c:\users\fireh\pycharmprojects\downloadsorter\main.py %*
+py yourpath\downloadsorter\main.py %*
