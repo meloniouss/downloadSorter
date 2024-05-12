@@ -3,7 +3,7 @@
 SORTING_PATH=C:\Users\fireh\Desktop\testFolder
 .pdf: PDFs
 .jpg,.png: Images
-.docx,.txt: Docs
+#.docx,.txt: Docs
 .csv: Excels
 .exe: Executables
 #test comment 2
@@ -12,3 +12,5 @@ SORTING_PATH=C:\Users\fireh\Desktop\testFolder
 .webp,.html: Webpages
 .pptx: PowerPoints
 .js: JavaScript
+ConsoleApplication1: customFolderTest
+pm_^\d{3}-\d{3}-\d{4}$: customRegexFile
