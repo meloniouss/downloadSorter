@@ -14,3 +14,4 @@ SORTING_PATH=C:\Users\fireh\Desktop\testFolder
 .js: JavaScript
 ConsoleApplication1: customFolderTest
 pm_^\d{3}-\d{3}-\d{4}$: customRegexFile
+# tgest
