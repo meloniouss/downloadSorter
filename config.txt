@@ -12,3 +12,4 @@ SORTING_PATH=C:\Users\fireh\Desktop\testFolder
 .webp,.html: Webpages
 .pptx: PowerPoints
 .js: JavaScript
+ConsoleApplication1: customFolderTest
