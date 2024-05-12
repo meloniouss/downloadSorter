@@ -1,17 +1,32 @@
-#test comment
-#test comment3
-SORTING_PATH=C:\Users\fireh\Desktop\testFolder
+# ALWAYS MAKE SURE YOUR SORTING PATH IS BEFORE ANY OF THE CONFIG INFORMATION
+#
+#
+# TO ADD PATHS, SIMPLY add a comma
+# and paste your desired path.
+# ADD AS MANY AS YOU'D LIKE
+# BECAUSE THIS APPLICATION MAKES USE OF MULTITHREADING.
+#
+SORTING_PATH=DRIVE:\DIRECTORY,DRIVE:\OTHER_DIRECTORY,DRIVE2:\ANOTHER_DIRECTORY\etc
+#
+#
+#
+#
+# MAKE SURE YOUR REGEX PATTERNS ARE ON SEPARATE LINES
+# KEEP IN MIND THAT THE SORTING HAPPENS FROM MOST SPECIFIC TO LEAST SPECIFIC
+# FOR EXAMPLE, IF YOU HAVE A WORD DOCUMENT THAT MATCHES A PATTERN
+# IT WILL ALWAYS SORT ACCORDING TO THE PATTERN FIRST. THIS IS BY DESIGN.
+# IT GOES PATTERN -> CUSTOM WORDS -> FILE EXTENSIONS (THIS IS HARDCODED)
+#
+pm_^\d{3}-\d{3}-\d{4}$: customRegexFile
+pm_\w+@\w+\.\w+: customRegexFile
 .pdf: PDFs
 .jpg,.png: Images
-#.docx,.txt: Docs
+.docx,.txt: Docs
 .csv: Excels
 .exe: Executables
-#test comment 2
 .mov,.mp4,.wmv,.avi: Videos
 .zip,.7z,.rar: Zips
 .webp,.html: Webpages
 .pptx: PowerPoints
 .js: JavaScript
 ConsoleApplication1: customFolderTest
-pm_^\d{3}-\d{3}-\d{4}$: customRegexFile
-# tgest
