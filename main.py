@@ -17,7 +17,6 @@ def create_destination_dirs(sort_path_, destinations):  # creating destination d
 
 
 def parse_config_file():
-    """Parse the configuration file."""
     with open("config.txt", "r") as cfgFile:
         for line in cfgFile:
             line = line.strip()
